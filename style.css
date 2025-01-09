@@ -1,0 +1,121 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #153677, #4e085f);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MCQ App */
+.todo-app {
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  padding: 40px 30px 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.todo-app h2 {
+  color: #002765;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input Row */
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f3f3f3;
+  border-radius: 30px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 12px;
+  font-size: 16px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 12px 25px;
+  background: #ff5945;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #e04538;
+}
+
+/* Option List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+ul li {
+  font-size: 16px;
+  padding: 12px 15px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  transition: background 0.3s ease;
+}
+
+ul li:hover {
+  background: #e9e9e9;
+}
+
+ul li .option-text {
+  flex: 1;
+  padding-left: 10px;
+}
+
+ul li input[type="radio"] {
+  margin-right: 10px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #4caf50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #43a047;
+}

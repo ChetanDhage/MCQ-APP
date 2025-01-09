@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MCQ App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="todo-app">
+      <h2>Multiple-Choice Question App</h2>
+      <div class="row">
+        <input
+          type="text"
+          id="input-box"
+          placeholder="Add an option..."
+          required
+        />
+        <button onclick="addOption()">Add Option</button>
+      </div>
+      <ul id="list-container"></ul>
+      <button class="submit-btn" onclick="submitAnswer()">Submit</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
